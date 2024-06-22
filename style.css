@@ -187,6 +187,30 @@ a {
     text-align: center;
     border-radius: 30px;
 }
+@media only screen and (max-width: 767px) {
+    .footer-image {
+        width: 100%;
+    }
+}
+.footer-image {
+    width: 30%;
+    align-items: start;
+    align-content: start;
+    justify-content: first baseline;
+}
+h6{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.btn .btn-secondary .button{
+    background-color: none;
+    border: none;
+}
+.foot{
+    margin-top: -20px;
+}
 #jaz {
     background-color: #8FDAEE;
     height: 100px;
@@ -264,6 +288,49 @@ img{
     color: black;
     margin-bottom: 15px;
     animation: pulse 0.5s infinite;
+}
+.projects button:focus + ul, .labs button:focus + ul {
+    opacity: 1;
+    pointer-events: all; // This is no longer the case when the focus is lost
+    transform: translateY(0px);
+}
+.card-text{
+    display: flex;
+    align-items: start;
+    justify-content: left;
+}
+
+.card-text {
+    text-align: left;
+}
+hr{
+    margin-top: 50px;
+}
+.card-text{
+    margin-left: 0%;
+    width: 100%;
+}
+.iframe{
+    border-radius: 10px;
+}
+.col-md-2{
+    margin-top: 20px;
+}
+.horizontal-line {
+    width: 100%;
+    height: 1px;
+    background-color: black; 
+    margin: 20px 0; 
+    margin-top: 1020px;
+}
+form{
+    width: 70%;
+}
+footer{
+    margin-top: 300px;
+}
+.top{
+    padding-top: 10px;
 }
 .pfeil:hover {
     color: red;
