@@ -12,6 +12,24 @@ header {
     left: 0;
     z-index: 1000;
 }
+#description-section {
+    font-size: 1rem;
+}
+#more-info-section .info-box {
+    text-align: center;
+    margin-bottom: 20px;
+}
+#more-info-section .info-box img {
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+#more-info-section .info-box p {
+    font-size: 1.2rem;
+    margin: 5px 0;
+}
+#more-info-section .info-box a {
+    font-size: 1.5rem;
+}
 p {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     display: flex;
@@ -41,3 +59,217 @@ p {
 .card-img-top {
     border-radius: 35px;
 }
+a {
+    text-decoration: none;
+    color: black;
+}
+.btn-group {
+    position: absolute;
+    top: 100%;
+    left: 90%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    color: #fff;
+    padding: 10px 10px;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 60px;
+}
+.col-5 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid;
+    border-color: white;
+}
+.row {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#event-section {
+    position: relative;
+    color: rgb(0, 0, 0);
+    background-image: url('Bildmaterial/Index/Next\ Events_Header.jpg');
+    background-position: center;
+    background-size: 100%;
+    min-height: 70%;
+    background-repeat: no-repeat;
+}
+.overlay {
+    margin-top: 15%;
+    margin-bottom: 5%;
+    width: 40%;
+    background-color: rgba(234, 234, 234, 0.7);
+    padding: 40px;
+    border-radius: 10px;
+}
+#zjtimg {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@media (max-width: 768px) {
+    #zjtimg {
+      width: 80%;
+      display: block;
+      margin: 0 auto; 
+    }
+}
+#zjt {
+    background-color: #DF3635;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid;
+    border-color: white;
+    border-width: 5px;
+    border-left: 0px;
+}
+#indu {
+    background-color: #F26BFF;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid;
+    border-color: white;
+    border-width: 5px;
+    border-right: 0px;
+}
+#induimg {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@media (max-width: 768px) {
+    #induimg {
+      width: 80%;
+      display: block;
+      margin: 0 auto; 
+    }
+}
+#indu {
+    background-color: #F26BFF;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid;
+    border-color: white;
+    border-width: 5px;
+    border-right: 0px;
+}
+
+#jazimg {
+    width: 13%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@media only screen and (max-width: 767px) {
+    #jazimg {
+        width: 80%;
+    }
+}
+.grey {
+    background-color: rgba(232, 232, 217, 0.75);
+    width: 40%;
+    display: grid;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 30px;
+}
+#jaz {
+    background-color: #8FDAEE;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid;
+    border-color: white;
+    border-width: 5px;
+    border-top: 2.5px;
+    border-right: 0px;
+}
+.nachsterevent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    background-image: url(Bildmaterial/Index/Next\ Events_Header.jpg);
+}
+@media only screen and (max-width: 767px) {
+    .grey {
+        background-color: rgba(232, 232, 217, 0.75);
+        width: 70%;
+        display: grid;
+        align-self: center;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        border-radius: 30px;
+    }
+}
+.btn-primary {
+    background-color: #DF3635;
+    border: none;
+}
+h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 300px;
+}
+h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+}
+.taten {
+    text-align: center;
+    display: grid;
+    width: 70%;
+}
+#foot{
+    padding: 20px 0;
+    margin-top: 20px;
+}
+img{
+    display: flex;
+    align-items: start;
+    justify-content: left;
+    background-color: none;
+}
+@media (max-width: 768px) {
+    p {
+        width: 70%;
+        margin-left: 15%;
+    }
+}
+.col-sm-4 {
+    display: flex;
+}
+.pfeil {
+    color: black;
+    margin-bottom: 15px;
+    animation: pulse 0.5s infinite;
+}
+.pfeil:hover {
+    color: red;
+  }
+@media (max-width: 768px) {
+    .overlay {
+        width: 70%;
+        padding-top: 200px;
+    }
